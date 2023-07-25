@@ -31,6 +31,10 @@
     background-color: #525252;
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 .big-col-three-reasons {
     background-color: #fff;
 }
@@ -282,11 +286,10 @@ footer {
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
-    margin top: 40px;
+    margin: 40px 20px;
 }
 
 /*----------------------------------Work history section*/
@@ -335,4 +338,47 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+
+/*-------------------------Contact form*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+}
+
+.textarea {
+    border: 2px inset #EBE9ED;
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/*----------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
